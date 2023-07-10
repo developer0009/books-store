@@ -65,7 +65,7 @@ const Add = () => {
             id="author_name"
             name="author_name"
             placeholder="Enter Author Name"
-            className="p-6 h-9 bg-stone-600 text-white rounded-lg"
+            className="pl-4 py-6 sm:p-6 h-9 bg-stone-600 text-white rounded-lg"
             onChange={handleChange}
             required
             value={data["author_name"]}
@@ -80,7 +80,7 @@ const Add = () => {
             id="author_name"
             name="book_name"
             placeholder="Enter Author Name"
-            className="p-6 h-9 bg-stone-600 text-white rounded-lg"
+            className="pl-4 py-6 sm:p-6 h-9 bg-stone-600 text-white rounded-lg"
             onChange={handleChange}
             value={data["book_name"]}
             required
@@ -96,7 +96,7 @@ const Add = () => {
             id="author_name"
             name="book_url"
             placeholder="Enter Author Name"
-            className="p-6 h-9 bg-stone-600 text-white rounded-lg"
+            className="pl-4 py-6 sm:p-6 h-9 bg-stone-600 text-white rounded-lg"
             onChange={handleChange}
             value={data["book_url"]}
             minLength={6}
