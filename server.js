@@ -12,6 +12,6 @@ app.use(express.json());
 
 //creating the server
 const PORT = process.env.PORT || 8080;
-app.use("/api/", apiRoutes);
+app.use("/api/books/", apiRoutes);
 
 app.listen(PORT, console.log("Listening at ", PORT));

@@ -12,7 +12,6 @@ const Add = () => {
     book_name: "",
     book_url: "",
   });
-  console.log("hello world");
   const handleChange = (evt) => {
     setData({ ...data, [evt.target.name]: evt.target.value });
   };
